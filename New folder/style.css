@@ -1,0 +1,83 @@
+
+ 
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  
+#section1{
+    display: flex;
+    gap: 20px;
+     align-items: center;
+     justify-content: center;
+}
+
+
+.info{
+    line-height: 6px;
+    margin: 10px;
+}
+
+.imageBorder{
+    position: relative;
+    border: 2px solid rgb(224, 220, 220);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    
+}
+
+.image{
+    position: absolute;
+
+    width: 120px;
+    height: 120px;
+    background-color: rgb(224, 220, 220);
+    border-radius: 50%; 
+    margin: 5px;
+    text-align: center;
+    line-height: 110px;
+    color: rgb(105, 104, 104);
+}
+
+.Linked{
+    margin-left: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  .Linked img{
+    width: 15px;
+    height: 15px;
+    text-align: center;
+
+  }
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: inline-block;
+  }
+  
+ 
+ 
+
+  .card-container{
+    display: grid;
+    grid-template-columns: 300px 300px ;
+    justify-content: center;
+    gap: 30px;
+    line-height: 10px;
+  }
+  
+
+  #pagination{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10px;
+     margin-bottom: 40px;
+  }
